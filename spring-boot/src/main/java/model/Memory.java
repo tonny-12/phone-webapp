@@ -45,5 +45,4 @@ public class Memory {
                 ", other=" + other +
                 '}';
     }
-
 }

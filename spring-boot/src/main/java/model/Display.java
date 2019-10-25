@@ -63,5 +63,4 @@ public class Display {
                 ", other=" + other +
                 '}';
     }
-
 }

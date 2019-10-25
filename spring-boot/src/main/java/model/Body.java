@@ -9,6 +9,7 @@ public class Body {
 
     private String dimensions;
     private String weight;
+    private String build;
     private String sim;
     private List<String> other;
 
@@ -26,6 +27,14 @@ public class Body {
 
     public void setWeight(String weight) {
         this.weight = weight;
+    }
+
+    public String getBuild() {
+        return build;
+    }
+
+    public void setBuild(String build) {
+        this.build = build;
     }
 
     public String getSim() {
@@ -49,9 +58,9 @@ public class Body {
         return "Body{" +
                 "dimensions='" + dimensions + '\'' +
                 ", weight='" + weight + '\'' +
+                ", build='" + build + '\'' +
                 ", sim='" + sim + '\'' +
                 ", other=" + other +
                 '}';
     }
-
 }

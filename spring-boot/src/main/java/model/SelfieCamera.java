@@ -43,5 +43,4 @@ public class SelfieCamera {
                 ", video=" + video +
                 '}';
     }
-
 }

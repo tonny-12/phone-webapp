@@ -51,5 +51,4 @@ public class Platform {
                 ", gpu='" + gpu + '\'' +
                 '}';
     }
-
 }

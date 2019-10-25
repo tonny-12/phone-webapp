@@ -12,7 +12,6 @@ import java.util.UUID;
 public class Phone {
 
     @PartitionKey(0)
-    @Column(name = "id")
     private UUID uuid;
 
     @PartitionKey(1)
@@ -33,6 +32,9 @@ public class Phone {
 
     @Frozen
     private Display display;
+
+    @Frozen
+    private Platform platform;
 
     @Frozen
     private Memory memory;
@@ -137,6 +139,14 @@ public class Phone {
         this.display = display;
     }
 
+    public Platform getPlatform() {
+        return platform;
+    }
+
+    public void setPlatform(Platform platform) {
+        this.platform = platform;
+    }
+
     public Memory getMemory() {
         return memory;
     }
@@ -206,6 +216,7 @@ public class Phone {
                 ", launch=" + launch +
                 ", body=" + body +
                 ", display=" + display +
+                ", platform=" + platform +
                 ", memory=" + memory +
                 ", mainCamera=" + mainCamera +
                 ", selfieCamera=" + selfieCamera +
@@ -215,5 +226,4 @@ public class Phone {
                 ", battery=" + battery +
                 '}';
     }
-
 }

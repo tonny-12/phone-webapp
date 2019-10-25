@@ -33,5 +33,4 @@ public class Features {
                 ", other=" + other +
                 '}';
     }
-
 }

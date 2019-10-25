@@ -43,5 +43,4 @@ public class MainCamera {
                 ", video=" + video +
                 '}';
     }
-
 }

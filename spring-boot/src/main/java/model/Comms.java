@@ -71,5 +71,4 @@ public class Comms {
                 ", usb='" + usb + '\'' +
                 '}';
     }
-
 }

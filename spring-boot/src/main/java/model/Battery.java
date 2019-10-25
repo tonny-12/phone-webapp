@@ -33,5 +33,4 @@ public class Battery {
                 ", charging=" + charging +
                 '}';
     }
-
 }
